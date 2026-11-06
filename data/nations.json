@@ -1,0 +1,41 @@
+[
+  {
+    "id": "mondstadt",
+    "name": "Mondstadt",
+    "element": "Anemo"
+  },
+  {
+    "id": "liyue",
+    "name": "Liyue",
+    "element": "Geo"
+  },
+  {
+    "id": "inazuma",
+    "name": "Inazuma",
+    "element": "Electro"
+  },
+  {
+    "id": "sumeru",
+    "name": "Sumeru",
+    "element": "Dendro"
+  },
+  {
+    "id": "fontaine",
+    "name": "Fontaine",
+    "element": "Hydro"
+  },
+  {
+    "id": "natlan",
+    "name": "Natlan",
+    "element": "Pyro"
+  },
+  {
+    "id": "snezhnaya",
+    "name": "Snezhnaya",
+    "element": "Cryo"
+  },
+  {
+    "id": "nodkrai",
+    "name": "Nod-Krai"
+  }
+]

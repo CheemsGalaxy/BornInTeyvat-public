@@ -1,0 +1,978 @@
+[
+  {
+    "id": "wanderer",
+    "name": "Wanderer",
+    "birthday": "01-03",
+    "element": "Anemo",
+    "nation": "Sumeru",
+    "rarity": 5
+  },
+  {
+    "id": "jahoda",
+    "name": "Jahoda",
+    "birthday": "01-05",
+    "element": "Anemo",
+    "nation": "Nod-Krai",
+    "rarity": 4
+  },
+  {
+    "id": "lan-yan",
+    "name": "Lan Yan",
+    "birthday": "01-06",
+    "element": "Anemo",
+    "nation": "Liyue",
+    "rarity": 4
+  },
+  {
+    "id": "thoma",
+    "name": "Thoma",
+    "birthday": "01-09",
+    "element": "Pyro",
+    "nation": "Inazuma",
+    "rarity": 4
+  },
+  {
+    "id": "chevreuse",
+    "name": "Chevreuse",
+    "birthday": "01-10",
+    "element": "Pyro",
+    "nation": "Fontaine",
+    "rarity": 4
+  },
+  {
+    "id": "sandrone",
+    "name": "Sandrone",
+    "birthday": "01-13",
+    "element": "Cryo",
+    "nation": "Snezhnaya",
+    "rarity": 5
+  },
+  {
+    "id": "columbina",
+    "name": "Columbina",
+    "birthday": "01-14",
+    "element": "Hydro",
+    "nation": "Nod-Krai",
+    "rarity": 5
+  },
+  {
+    "id": "diona",
+    "name": "Diona",
+    "birthday": "01-18",
+    "element": "Cryo",
+    "nation": "Mondstadt",
+    "rarity": 4
+  },
+  {
+    "id": "citlali",
+    "name": "Citlali",
+    "birthday": "01-20",
+    "element": "Cryo",
+    "nation": "Natlan",
+    "rarity": 5
+  },
+  {
+    "id": "kirara",
+    "name": "Kirara",
+    "birthday": "01-22",
+    "element": "Dendro",
+    "nation": "Inazuma",
+    "rarity": 4
+  },
+  {
+    "id": "rosaria",
+    "name": "Rosaria",
+    "birthday": "01-24",
+    "element": "Cryo",
+    "nation": "Mondstadt",
+    "rarity": 4
+  },
+  {
+    "id": "lyney",
+    "name": "Lyney",
+    "birthday": "02-02",
+    "element": "Pyro",
+    "nation": "Fontaine",
+    "rarity": 5
+  },
+  {
+    "id": "lynette",
+    "name": "Lynette",
+    "birthday": "02-02",
+    "element": "Anemo",
+    "nation": "Fontaine",
+    "rarity": 4
+  },
+  {
+    "id": "vesna",
+    "name": "Vesna",
+    "birthday": "02-04",
+    "element": "Anemo",
+    "nation": "Snezhnaya",
+    "rarity": 5
+  },
+  {
+    "id": "mitya",
+    "name": "Mitya",
+    "birthday": "02-08",
+    "element": "Electro",
+    "nation": "Snezhnaya",
+    "rarity": 5
+  },
+  {
+    "id": "alyosha",
+    "name": "Alyosha",
+    "birthday": "02-09",
+    "element": "Electro",
+    "nation": "Snezhnaya",
+    "rarity": 4
+  },
+  {
+    "id": "alhaitham",
+    "name": "Alhaitham",
+    "birthday": "02-11",
+    "element": "Dendro",
+    "nation": "Sumeru",
+    "rarity": 5
+  },
+  {
+    "id": "beidou",
+    "name": "Beidou",
+    "birthday": "02-14",
+    "element": "Electro",
+    "nation": "Liyue",
+    "rarity": 4
+  },
+  {
+    "id": "varka",
+    "name": "Varka",
+    "birthday": "02-17",
+    "element": "Anemo",
+    "nation": "Mondstadt",
+    "rarity": 5
+  },
+  {
+    "id": "odette",
+    "name": "Odette",
+    "birthday": "02-20",
+    "element": "Cryo",
+    "nation": "Snezhnaya",
+    "rarity": 5
+  },
+  {
+    "id": "sangonomiya-kokomi",
+    "name": "Sangonomiya Kokomi",
+    "birthday": "02-22",
+    "element": "Hydro",
+    "nation": "Inazuma",
+    "rarity": 5
+  },
+  {
+    "id": "bennett",
+    "name": "Bennett",
+    "birthday": "02-29",
+    "element": "Pyro",
+    "nation": "Mondstadt",
+    "rarity": 4
+  },
+  {
+    "id": "lauma",
+    "name": "Lauma",
+    "birthday": "03-01",
+    "element": "Dendro",
+    "nation": "Nod-Krai",
+    "rarity": 5
+  },
+  {
+    "id": "qiqi",
+    "name": "Qiqi",
+    "birthday": "03-03",
+    "element": "Cryo",
+    "nation": "Liyue",
+    "rarity": 5
+  },
+  {
+    "id": "yaoyao",
+    "name": "Yaoyao",
+    "birthday": "03-06",
+    "element": "Dendro",
+    "nation": "Liyue",
+    "rarity": 4
+  },
+  {
+    "id": "shenhe",
+    "name": "Shenhe",
+    "birthday": "03-10",
+    "element": "Cryo",
+    "nation": "Liyue",
+    "rarity": 5
+  },
+  {
+    "id": "xilonen",
+    "name": "Xilonen",
+    "birthday": "03-13",
+    "element": "Geo",
+    "nation": "Natlan",
+    "rarity": 5
+  },
+  {
+    "id": "durin",
+    "name": "Durin",
+    "birthday": "03-14",
+    "element": "Pyro",
+    "nation": "Mondstadt",
+    "rarity": 5
+  },
+  {
+    "id": "jean",
+    "name": "Jean",
+    "birthday": "03-14",
+    "element": "Anemo",
+    "nation": "Mondstadt",
+    "rarity": 5
+  },
+  {
+    "id": "yumemizuki-mizuki",
+    "name": "Yumemizuki Mizuki",
+    "birthday": "03-16",
+    "element": "Anemo",
+    "nation": "Inazuma",
+    "rarity": 5
+  },
+  {
+    "id": "noelle",
+    "name": "Noelle",
+    "birthday": "03-21",
+    "element": "Geo",
+    "nation": "Mondstadt",
+    "rarity": 4
+  },
+  {
+    "id": "ifa",
+    "name": "Ifa",
+    "birthday": "03-23",
+    "element": "Anemo",
+    "nation": "Natlan",
+    "rarity": 4
+  },
+  {
+    "id": "valeriy",
+    "name": "Valeriy",
+    "birthday": "03-24",
+    "element": "Electro",
+    "nation": "Snezhnaya",
+    "rarity": 4
+  },
+  {
+    "id": "kamisato-ayato",
+    "name": "Kamisato Ayato",
+    "birthday": "03-26",
+    "element": "Hydro",
+    "nation": "Inazuma",
+    "rarity": 5
+  },
+  {
+    "id": "vodyanitsa",
+    "name": "Vodyanitsa",
+    "birthday": "03-29",
+    "element": "Hydro",
+    "nation": "Snezhnaya",
+    "rarity": 5
+  },
+  {
+    "id": "sigewinne",
+    "name": "Sigewinne",
+    "birthday": "03-30",
+    "element": "Hydro",
+    "nation": "Fontaine",
+    "rarity": 5
+  },
+  {
+    "id": "ineffa",
+    "name": "Ineffa",
+    "birthday": "04-02",
+    "element": "Electro",
+    "nation": "Nod-Krai",
+    "rarity": 5
+  },
+  {
+    "id": "lohen",
+    "name": "Lohen",
+    "birthday": "04-03",
+    "element": "Cryo",
+    "nation": "Mondstadt",
+    "rarity": 5
+  },
+  {
+    "id": "aloy",
+    "name": "Aloy",
+    "birthday": "04-04",
+    "element": "Cryo",
+    "nation": "Other",
+    "rarity": 5
+  },
+  {
+    "id": "dehya",
+    "name": "Dehya",
+    "birthday": "04-07",
+    "element": "Pyro",
+    "nation": "Sumeru",
+    "rarity": 5
+  },
+  {
+    "id": "charlotte",
+    "name": "Charlotte",
+    "birthday": "04-10",
+    "element": "Cryo",
+    "nation": "Fontaine",
+    "rarity": 4
+  },
+  {
+    "id": "xianyun",
+    "name": "Xianyun",
+    "birthday": "04-11",
+    "element": "Anemo",
+    "nation": "Liyue",
+    "rarity": 5
+  },
+  {
+    "id": "xiao",
+    "name": "Xiao",
+    "birthday": "04-17",
+    "element": "Anemo",
+    "nation": "Liyue",
+    "rarity": 5
+  },
+  {
+    "id": "yelan",
+    "name": "Yelan",
+    "birthday": "04-20",
+    "element": "Hydro",
+    "nation": "Liyue",
+    "rarity": 5
+  },
+  {
+    "id": "kachina",
+    "name": "Kachina",
+    "birthday": "04-22",
+    "element": "Geo",
+    "nation": "Natlan",
+    "rarity": 4
+  },
+  {
+    "id": "baizhu",
+    "name": "Baizhu",
+    "birthday": "04-25",
+    "element": "Dendro",
+    "nation": "Liyue",
+    "rarity": 5
+  },
+  {
+    "id": "diluc",
+    "name": "Diluc",
+    "birthday": "04-30",
+    "element": "Pyro",
+    "nation": "Mondstadt",
+    "rarity": 5
+  },
+  {
+    "id": "candace",
+    "name": "Candace",
+    "birthday": "05-03",
+    "element": "Hydro",
+    "nation": "Sumeru",
+    "rarity": 4
+  },
+  {
+    "id": "collei",
+    "name": "Collei",
+    "birthday": "05-08",
+    "element": "Dendro",
+    "nation": "Sumeru",
+    "rarity": 4
+  },
+  {
+    "id": "nefer",
+    "name": "Nefer",
+    "birthday": "05-09",
+    "element": "Dendro",
+    "nation": "Nod-Krai",
+    "rarity": 5
+  },
+  {
+    "id": "zibai",
+    "name": "Zibai",
+    "birthday": "05-15",
+    "element": "Geo",
+    "nation": "Nod-Krai",
+    "rarity": 5
+  },
+  {
+    "id": "gorou",
+    "name": "Gorou",
+    "birthday": "05-18",
+    "element": "Geo",
+    "nation": "Inazuma",
+    "rarity": 4
+  },
+  {
+    "id": "yun-jin",
+    "name": "Yun Jin",
+    "birthday": "05-21",
+    "element": "Geo",
+    "nation": "Liyue",
+    "rarity": 4
+  },
+  {
+    "id": "linnea",
+    "name": "Linnea",
+    "birthday": "05-23",
+    "element": "Geo",
+    "nation": "Nod-Krai",
+    "rarity": 5
+  },
+  {
+    "id": "dahlia",
+    "name": "Dahlia",
+    "birthday": "05-25",
+    "element": "Hydro",
+    "nation": "Mondstadt",
+    "rarity": 4
+  },
+  {
+    "id": "fischl",
+    "name": "Fischl",
+    "birthday": "05-27",
+    "element": "Electro",
+    "nation": "Mondstadt",
+    "rarity": 4
+  },
+  {
+    "id": "sethos",
+    "name": "Sethos",
+    "birthday": "05-31",
+    "element": "Electro",
+    "nation": "Sumeru",
+    "rarity": 4
+  },
+  {
+    "id": "arataki-itto",
+    "name": "Arataki Itto",
+    "birthday": "06-01",
+    "element": "Geo",
+    "nation": "Inazuma",
+    "rarity": 5
+  },
+  {
+    "id": "escoffier",
+    "name": "Escoffier",
+    "birthday": "06-08",
+    "element": "Cryo",
+    "nation": "Fontaine",
+    "rarity": 5
+  },
+  {
+    "id": "lisa",
+    "name": "Lisa",
+    "birthday": "06-09",
+    "element": "Electro",
+    "nation": "Mondstadt",
+    "rarity": 4
+  },
+  {
+    "id": "venti",
+    "name": "Venti",
+    "birthday": "06-16",
+    "element": "Anemo",
+    "nation": "Mondstadt",
+    "rarity": 5
+  },
+  {
+    "id": "yoimiya",
+    "name": "Yoimiya",
+    "birthday": "06-21",
+    "element": "Pyro",
+    "nation": "Inazuma",
+    "rarity": 5
+  },
+  {
+    "id": "cyno",
+    "name": "Cyno",
+    "birthday": "06-23",
+    "element": "Electro",
+    "nation": "Sumeru",
+    "rarity": 5
+  },
+  {
+    "id": "raiden-shogun",
+    "name": "Raiden Shogun",
+    "birthday": "06-26",
+    "element": "Electro",
+    "nation": "Inazuma",
+    "rarity": 5
+  },
+  {
+    "id": "yae-miko",
+    "name": "Yae Miko",
+    "birthday": "06-27",
+    "element": "Electro",
+    "nation": "Inazuma",
+    "rarity": 5
+  },
+  {
+    "id": "barbara",
+    "name": "Barbara",
+    "birthday": "07-05",
+    "element": "Hydro",
+    "nation": "Mondstadt",
+    "rarity": 4
+  },
+  {
+    "id": "kaveh",
+    "name": "Kaveh",
+    "birthday": "07-09",
+    "element": "Dendro",
+    "nation": "Sumeru",
+    "rarity": 4
+  },
+  {
+    "id": "kujou-sara",
+    "name": "Kujou Sara",
+    "birthday": "07-14",
+    "element": "Electro",
+    "nation": "Inazuma",
+    "rarity": 4
+  },
+  {
+    "id": "hu-tao",
+    "name": "Hu Tao",
+    "birthday": "07-15",
+    "element": "Pyro",
+    "nation": "Liyue",
+    "rarity": 5
+  },
+  {
+    "id": "tartaglia",
+    "name": "Tartaglia",
+    "birthday": "07-20",
+    "element": "Hydro",
+    "nation": "Snezhnaya",
+    "rarity": 5
+  },
+  {
+    "id": "shikanoin-heizou",
+    "name": "Shikanoin Heizou",
+    "birthday": "07-24",
+    "element": "Anemo",
+    "nation": "Inazuma",
+    "rarity": 4
+  },
+  {
+    "id": "klee",
+    "name": "Klee",
+    "birthday": "07-27",
+    "element": "Pyro",
+    "nation": "Mondstadt",
+    "rarity": 5
+  },
+  {
+    "id": "kuki-shinobu",
+    "name": "Kuki Shinobu",
+    "birthday": "07-27",
+    "element": "Electro",
+    "nation": "Inazuma",
+    "rarity": 4
+  },
+  {
+    "id": "yanfei",
+    "name": "Yanfei",
+    "birthday": "07-28",
+    "element": "Pyro",
+    "nation": "Liyue",
+    "rarity": 4
+  },
+  {
+    "id": "mualani",
+    "name": "Mualani",
+    "birthday": "08-03",
+    "element": "Hydro",
+    "nation": "Natlan",
+    "rarity": 5
+  },
+  {
+    "id": "iansan",
+    "name": "Iansan",
+    "birthday": "08-08",
+    "element": "Electro",
+    "nation": "Natlan",
+    "rarity": 4
+  },
+  {
+    "id": "amber",
+    "name": "Amber",
+    "birthday": "08-10",
+    "element": "Pyro",
+    "nation": "Mondstadt",
+    "rarity": 4
+  },
+  {
+    "id": "mika",
+    "name": "Mika",
+    "birthday": "08-11",
+    "element": "Cryo",
+    "nation": "Mondstadt",
+    "rarity": 4
+  },
+  {
+    "id": "navia",
+    "name": "Navia",
+    "birthday": "08-16",
+    "element": "Geo",
+    "nation": "Fontaine",
+    "rarity": 5
+  },
+  {
+    "id": "chiori",
+    "name": "Chiori",
+    "birthday": "08-17",
+    "element": "Geo",
+    "nation": "Inazuma",
+    "rarity": 5
+  },
+  {
+    "id": "faruzan",
+    "name": "Faruzan",
+    "birthday": "08-20",
+    "element": "Anemo",
+    "nation": "Sumeru",
+    "rarity": 4
+  },
+  {
+    "id": "arlecchino",
+    "name": "Arlecchino",
+    "birthday": "08-22",
+    "element": "Pyro",
+    "nation": "Snezhnaya",
+    "rarity": 5
+  },
+  {
+    "id": "ningguang",
+    "name": "Ningguang",
+    "birthday": "08-26",
+    "element": "Geo",
+    "nation": "Liyue",
+    "rarity": 4
+  },
+  {
+    "id": "mavuika",
+    "name": "Mavuika",
+    "birthday": "08-28",
+    "element": "Pyro",
+    "nation": "Natlan",
+    "rarity": 5
+  },
+  {
+    "id": "mona",
+    "name": "Mona",
+    "birthday": "08-31",
+    "element": "Hydro",
+    "nation": "Mondstadt",
+    "rarity": 5
+  },
+  {
+    "id": "chongyun",
+    "name": "Chongyun",
+    "birthday": "09-07",
+    "element": "Cryo",
+    "nation": "Liyue",
+    "rarity": 4
+  },
+  {
+    "id": "razor",
+    "name": "Razor",
+    "birthday": "09-09",
+    "element": "Electro",
+    "nation": "Mondstadt",
+    "rarity": 4
+  },
+  {
+    "id": "albedo",
+    "name": "Albedo",
+    "birthday": "09-13",
+    "element": "Geo",
+    "nation": "Mondstadt",
+    "rarity": 5
+  },
+  {
+    "id": "clorinde",
+    "name": "Clorinde",
+    "birthday": "09-20",
+    "element": "Electro",
+    "nation": "Fontaine",
+    "rarity": 5
+  },
+  {
+    "id": "aino",
+    "name": "Aino",
+    "birthday": "09-21",
+    "element": "Hydro",
+    "nation": "Nod-Krai",
+    "rarity": 4
+  },
+  {
+    "id": "emilie",
+    "name": "Emilie",
+    "birthday": "09-22",
+    "element": "Dendro",
+    "nation": "Fontaine",
+    "rarity": 5
+  },
+  {
+    "id": "freminet",
+    "name": "Freminet",
+    "birthday": "09-24",
+    "element": "Cryo",
+    "nation": "Fontaine",
+    "rarity": 4
+  },
+  {
+    "id": "kamisato-ayaka",
+    "name": "Kamisato Ayaka",
+    "birthday": "09-28",
+    "element": "Cryo",
+    "nation": "Inazuma",
+    "rarity": 5
+  },
+  {
+    "id": "nicole",
+    "name": "Nicole",
+    "birthday": "09-29",
+    "element": "Pyro",
+    "nation": "Other",
+    "rarity": 5
+  },
+  {
+    "id": "xingqiu",
+    "name": "Xingqiu",
+    "birthday": "10-09",
+    "element": "Hydro",
+    "nation": "Liyue",
+    "rarity": 4
+  },
+  {
+    "id": "furina",
+    "name": "Furina",
+    "birthday": "10-13",
+    "element": "Hydro",
+    "nation": "Fontaine",
+    "rarity": 5
+  },
+  {
+    "id": "ororon",
+    "name": "Ororon",
+    "birthday": "10-14",
+    "element": "Electro",
+    "nation": "Natlan",
+    "rarity": 4
+  },
+  {
+    "id": "xinyan",
+    "name": "Xinyan",
+    "birthday": "10-16",
+    "element": "Pyro",
+    "nation": "Liyue",
+    "rarity": 4
+  },
+  {
+    "id": "sayu",
+    "name": "Sayu",
+    "birthday": "10-19",
+    "element": "Anemo",
+    "nation": "Inazuma",
+    "rarity": 4
+  },
+  {
+    "id": "eula",
+    "name": "Eula",
+    "birthday": "10-25",
+    "element": "Cryo",
+    "nation": "Mondstadt",
+    "rarity": 5
+  },
+  {
+    "id": "nahida",
+    "name": "Nahida",
+    "birthday": "10-27",
+    "element": "Dendro",
+    "nation": "Sumeru",
+    "rarity": 5
+  },
+  {
+    "id": "kaedehara-kazuha",
+    "name": "Kaedehara Kazuha",
+    "birthday": "10-29",
+    "element": "Anemo",
+    "nation": "Inazuma",
+    "rarity": 5
+  },
+  {
+    "id": "flins",
+    "name": "Flins",
+    "birthday": "10-31",
+    "element": "Electro",
+    "nation": "Nod-Krai",
+    "rarity": 5
+  },
+  {
+    "id": "xiangling",
+    "name": "Xiangling",
+    "birthday": "11-02",
+    "element": "Pyro",
+    "nation": "Liyue",
+    "rarity": 4
+  },
+  {
+    "id": "skirk",
+    "name": "Skirk",
+    "birthday": "11-05",
+    "element": "Cryo",
+    "nation": "Other",
+    "rarity": 5
+  },
+  {
+    "id": "kinich",
+    "name": "Kinich",
+    "birthday": "11-11",
+    "element": "Dendro",
+    "nation": "Natlan",
+    "rarity": 5
+  },
+  {
+    "id": "varesa",
+    "name": "Varesa",
+    "birthday": "11-15",
+    "element": "Electro",
+    "nation": "Natlan",
+    "rarity": 5
+  },
+  {
+    "id": "keqing",
+    "name": "Keqing",
+    "birthday": "11-20",
+    "element": "Electro",
+    "nation": "Liyue",
+    "rarity": 5
+  },
+  {
+    "id": "prune",
+    "name": "Prune",
+    "birthday": "11-20",
+    "element": "Anemo",
+    "nation": "Mondstadt",
+    "rarity": 4
+  },
+  {
+    "id": "wriothesley",
+    "name": "Wriothesley",
+    "birthday": "11-23",
+    "element": "Cryo",
+    "nation": "Fontaine",
+    "rarity": 5
+  },
+  {
+    "id": "sucrose",
+    "name": "Sucrose",
+    "birthday": "11-26",
+    "element": "Anemo",
+    "nation": "Mondstadt",
+    "rarity": 4
+  },
+  {
+    "id": "kaeya",
+    "name": "Kaeya",
+    "birthday": "11-30",
+    "element": "Cryo",
+    "nation": "Mondstadt",
+    "rarity": 4
+  },
+  {
+    "id": "ganyu",
+    "name": "Ganyu",
+    "birthday": "12-02",
+    "element": "Cryo",
+    "nation": "Liyue",
+    "rarity": 5
+  },
+  {
+    "id": "nilou",
+    "name": "Nilou",
+    "birthday": "12-03",
+    "element": "Hydro",
+    "nation": "Sumeru",
+    "rarity": 5
+  },
+  {
+    "id": "chasca",
+    "name": "Chasca",
+    "birthday": "12-10",
+    "element": "Anemo",
+    "nation": "Natlan",
+    "rarity": 5
+  },
+  {
+    "id": "neuvillette",
+    "name": "Neuvillette",
+    "birthday": "12-18",
+    "element": "Hydro",
+    "nation": "Fontaine",
+    "rarity": 5
+  },
+  {
+    "id": "layla",
+    "name": "Layla",
+    "birthday": "12-19",
+    "element": "Cryo",
+    "nation": "Sumeru",
+    "rarity": 4
+  },
+  {
+    "id": "dori",
+    "name": "Dori",
+    "birthday": "12-21",
+    "element": "Electro",
+    "nation": "Sumeru",
+    "rarity": 4
+  },
+  {
+    "id": "gaming",
+    "name": "Gaming",
+    "birthday": "12-22",
+    "element": "Pyro",
+    "nation": "Liyue",
+    "rarity": 4
+  },
+  {
+    "id": "illuga",
+    "name": "Illuga",
+    "birthday": "12-23",
+    "element": "Geo",
+    "nation": "Nod-Krai",
+    "rarity": 4
+  },
+  {
+    "id": "tighnari",
+    "name": "Tighnari",
+    "birthday": "12-29",
+    "element": "Dendro",
+    "nation": "Sumeru",
+    "rarity": 5
+  },
+  {
+    "id": "zhongli",
+    "name": "Zhongli",
+    "birthday": "12-31",
+    "element": "Geo",
+    "nation": "Liyue",
+    "rarity": 5
+  }
+]
