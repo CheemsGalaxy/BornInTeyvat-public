@@ -1,214 +1,60 @@
-# BornInTeyvat Public Dataset
+# Born in Teyvat
 
-A small, machine-readable dataset of Genshin Impact character birthdays, elements, nations, and rarities, maintained as the public data companion to the **Born in Teyvat** project.
+**Lịch sinh nhật nhân vật Genshin Impact dành cho cộng đồng người chơi Việt**<br>
+Website: https://borninteyvat.vercel.app/
 
-Current dataset version: **1.0.0** (6 November 2026).
+Có bao giờ bạn mở game và chợt nhận ra mình vừa bỏ lỡ sinh nhật của một nhân vật yêu thích? Born in Teyvat ra đời để chuyện đó không còn xảy ra
 
-This repository contains **data and documentation only**. It does not contain the Born in Teyvat website source code, React components, TypeScript application logic, CSS, UI, design, routing, configuration, avatars, or artwork.
+Trang web tổng hợp sinh nhật của **122 nhân vật Genshin Impact**, giúp bạn biết hôm nay ai sinh nhật, ai sắp tới trong vài ngày tới, đồng thời tra cứu nhanh theo tháng sinh, nguyên tố, quốc gia hoặc độ hiếm
 
-> Born in Teyvat is an unofficial fan-made project and is not affiliated with, endorsed by, or sponsored by HoYoverse. Genshin Impact and related intellectual property belong to their respective owners.
+## Bạn có thể làm gì?
 
-## Contents
+- **Xem sinh nhật hôm nay**: nhân vật đang được chúc mừng trong ngày sẽ xuất hiện nổi bật ngay đầu trang
+- **Theo dõi sinh nhật sắp tới**: chọn xem trong 7 hoặc 30 ngày tới, kèm số ngày còn lại
+- **Mở lịch 12 tháng**: mỗi nhân vật nằm đúng ô ngày sinh, có avatar, ngày trùng sinh nhật và chú thích riêng cho Bennett 29/02
+- **Tra cứu nhân vật**: tìm theo tên, lọc theo tháng sinh, nguyên tố, quốc gia và độ hiếm; sắp xếp theo sinh nhật gần nhất hoặc thứ tự trong năm
+- **Xem hồ sơ chi tiết**: ngày sinh, cung mệnh, nguyên tố, quốc gia, độ hiếm và bộ đếm ngược đến sinh nhật kế tiếp.
+- **Dùng trên mọi thiết bị**: giao diện co giãn tốt từ điện thoại đến màn hình lớn, có chế độ sáng và tối
+- **Chuyển đổi Việt / Anh**: đổi ngôn ngữ giao diện và card sinh nhật ngay trên header, lựa chọn được ghi nhớ cho lần truy cập sau
 
-| File | Records | Description |
-|---|---:|---|
-| `data/characters.json` | 122 | Character birthday, element, nation, and rarity records |
-| `data/nations.json` | 8 | Nation identifiers, names, and associated elements |
-| `schema/characters.schema.json` | — | JSON Schema 2020-12 for the character dataset |
-| `schema/nations.schema.json` | — | JSON Schema 2020-12 for the nation dataset |
-| `DATA-LICENSE.md` | — | Limited CC BY 4.0 scope and exclusions |
-| `THIRD-PARTY-NOTICES.md` | — | Source attribution and third-party rights |
-| `CONTRIBUTING.md` | — | Contribution and source requirements |
-| `CHANGELOG.md` | — | Dataset revisions |
+## Một vài chi tiết được chăm chút
 
-## Repository layout
+- Danh sách gồm **122 nhân vật**, phủ đủ 12 tháng, 7 nguyên tố và 7 quốc gia cùng Nod-Krai
+- **Bennett sinh ngày 29/02** được xử lý riêng: năm thường vẫn hiển thị đúng ngày sinh gốc, nhưng sinh nhật được tính vào 28/02 để bạn không bỏ lỡ
+- **4 ngày trùng sinh nhật** được sắp xếp gọn gàng, không che mất avatar của nhau.
+- **Ngày sinh và cung mệnh** được đối chiếu từ nhiều nguồn trước khi đưa vào trang
+- **Màu sắc theo nguyên tố** giúp mỗi nhân vật có dấu ấn riêng, nhưng vẫn dễ đọc ở cả nền sáng và nền tối
+- **Không cần đăng nhập, không quảng cáo** — mở lên là dùng được
 
-```text
-BornInTeyvat-public/
-|-- data/
-|   |-- characters.json
-|   `-- nations.json
-|-- schema/
-|   |-- characters.schema.json
-|   `-- nations.schema.json
-|-- README.md
-|-- DATA-LICENSE.md
-|-- THIRD-PARTY-NOTICES.md
-|-- CONTRIBUTING.md
-`-- CHANGELOG.md
-```
+## Dữ liệu từ đâu?
 
-## JSON structure
+| Thông tin | Nguồn |
+|---|---|
+| Ngày sinh, cung mệnh | [Bảng Birthday của Game8](https://game8.co/games/Genshin-Impact/archives/380551), đối chiếu với [Genshin Impact Wiki](https://genshin-impact.fandom.com/wiki/Constellation/List) |
+| Nguyên tố, quốc gia, độ hiếm | API công khai [Yatta / Project Amber](https://gi.yatta.moe/) |
+| Avatar nhân vật | [Enka.Network](https://enka.network/) |
 
-### Characters
+Roster được đối chiếu chéo để hạn chế sai lệch. Sáu nhân vật Snezhnaya ra mắt ở bản 7.0–7.2 — Vodyanitsa, Vesna, Alyosha, Odette, Mitya, Valeriy — có ngày sinh và cung mệnh lấy từ HoYoWiki và Genshin Impact Wiki.
 
-`data/characters.json` is an array of objects with exactly these fields:
+## Ghi công
 
-```json
-[
-  {
-    "id": "amber",
-    "name": "Amber",
-    "birthday": "08-10",
-    "element": "Pyro",
-    "nation": "Mondstadt",
-    "rarity": 4
-  }
-]
-```
+Born in Teyvat là dự án fan-made phi lợi nhuận. Mọi hình ảnh và thông tin nhân vật Genshin Impact thuộc bản quyền của **HoYoverse (COGNOSPHERE PTE. LTD.)**
 
-This example illustrates the schema only. It is not a separate confirmation that every field has been legally cleared; see `DATA-LICENSE.md`.
+Nguồn dữ liệu được ghi rõ ở footer của trang web và trong bảng phía trên
 
-### Nations
+## License & Copyright
 
-`data/nations.json` is an array of objects with these fields:
+**Mã nguồn và giao diện** — Toàn bộ source code, cách triển khai website, bố cục, giao diện, styling và asset do dự án tự tạo là **All Rights Reserved** (© 2026 CheemsGalaxy). Không được copy, sửa, phân phối, deploy lại, đổi thương hiệu hoặc tạo website phái sinh từ code gốc khi chưa có sự cho phép bằng văn bản. Chi tiết: [CODE-NOTICE.md](./CODE-NOTICE.md).
 
-```json
-[
-  {
-    "id": "mondstadt",
-    "name": "Mondstadt",
-    "element": "Anemo"
-  },
-  {
-    "id": "nodkrai",
-    "name": "Nod-Krai"
-  }
-]
-```
+**Dữ liệu nhân vật** — Phần biên soạn dữ liệu gốc (chọn lọc, sắp xếp, chuẩn hoá) và các trường thông tin thực tế như tên, ngày sinh, nguyên tố, quốc gia, độ hiếm được phát hành theo [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), với điều kiện ghi công, dẫn link giấy phép và nêu rõ thay đổi. Giấy phép này **không** áp dụng cho source code, UI, hình ảnh hay tài sản bên thứ ba. Chi tiết: [DATA-LICENSE.md](./DATA-LICENSE.md).
 
-The `element` field is optional because not every nation has a published associated element. At present, Nod-Krai has no `element` value.
+**Tài sản bên thứ ba** — Nhân vật, tên, avatar, hình ảnh, logo và các tài sản Genshin Impact khác thuộc bản quyền **HoYoverse (COGNOSPHERE PTE. LTD.)**, không nằm trong bất kỳ giấy phép nào của dự án. Dữ liệu tham chiếu từ Game8, Genshin Impact Wiki, Yatta / Project Amber, Enka.Network và HoYoWiki giữ nguyên điều khoản của từng nguồn; ghi công không đồng nghĩa với việc được phép phân phối lại. Chi tiết: [THIRD-PARTY-NOTICES.md](./THIRD-PARTY-NOTICES.md).
 
-## Field definitions
+Born in Teyvat is an unofficial fan-made project. It is not affiliated with, endorsed by, or sponsored by HoYoverse.
 
-### Character fields
+Born in Teyvat là dự án fan-made không chính thức, không liên kết, không được HoYoverse bảo trợ hay xác nhận.
 
-| Field | Type | Required | Description |
-|---|---|:---:|---|
-| `id` | string | Yes | Stable kebab-case identifier, for example `lan-yan`. Must not change once published. |
-| `name` | string | Yes | Character display name. |
-| `birthday` | string | Yes | Month and day in `MM-DD` format. February 29 is preserved. |
-| `element` | string | Yes | One of `Anemo`, `Cryo`, `Dendro`, `Electro`, `Geo`, `Hydro`, `Pyro`. |
-| `nation` | string | Yes | One of `Fontaine`, `Inazuma`, `Liyue`, `Mondstadt`, `Natlan`, `Nod-Krai`, `Other`, `Snezhnaya`, `Sumeru`. |
-| `rarity` | integer | Yes | `4` or `5`, representing stars. |
+## Góp ý
 
-### Nation fields
+Nếu bạn phát hiện sai sót về ngày sinh, tên nhân vật hoặc muốn góp ý về giao diện, mọi phản hồi đều được hoan nghênh. Hãy ghi lại chi tiết càng cụ thể càng tốt để mình kiểm tra và cập nhật
 
-| Field | Type | Required | Description |
-|---|---|:---:|---|
-| `id` | string | Yes | Stable kebab-case identifier, for example `nodkrai`. Must not change once published. |
-| `name` | string | Yes | Nation display name. |
-| `element` | string | No | Associated element, using the same values as the character `element` field. |
-
-### Nation classification
-
-`Other` is a valid character `nation` classification, not a nation record. It is used for characters who do not have a matching record in `data/nations.json`. The nation dataset therefore contains 8 records while the character dataset uses 9 possible `nation` values including `Other`.
-
-## Date format
-
-Birthdays use `MM-DD`, zero-padded, with no year:
-
-- January 3 is `01-03`.
-- August 10 is `08-10`.
-- February 29 is `02-29` and is valid.
-
-Birthdays are anniversaries, not full dates. Consumers should not assume a year and should decide how to handle February 29 in non-leap years.
-
-## Data sources and provenance
-
-The records were compiled for the Born in Teyvat project and cross-checked against community and reference sources, including:
-
-- Game8
-- Genshin Impact Wiki
-- Yatta / Project Amber
-- Enka.Network
-- HoYoWiki
-
-These sources are credited for reference and verification. **Attribution does not grant permission to redistribute third-party database contents.** The project owner cannot relicense material owned by others and does not claim ownership of Genshin Impact intellectual property. See `THIRD-PARTY-NOTICES.md` for details and unresolved questions.
-
-Only the fields documented above are part of this repository. Character avatars, PNG files, artwork, logos, constellation text, descriptive text, inspiration text, and website metadata are intentionally excluded.
-
-## Licensing scope
-
-The two JSON files in `data/` are made available under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**, to the extent the project owner holds the relevant rights:
-
-- https://creativecommons.org/licenses/by/4.0/
-- https://creativecommons.org/licenses/by/4.0/legalcode
-
-The license covers only `data/characters.json` and `data/nations.json`, limited to the fields documented in this README. It does not cover the repository as a whole, the Born in Teyvat website implementation, images, trademarks, or third-party material.
-
-There is intentionally no root `LICENSE` file that could be mistaken for a repository-wide license.
-
-If you redistribute the data or a modified version, provide attribution, link to the license, link to this repository where reasonably practicable, and indicate what you changed. Suggested attribution:
-
-> Character and nation data from the BornInTeyvat Public Dataset by CheemsGalaxy, licensed under CC BY 4.0.
-> Source: https://github.com/CheemsGalaxy/BornInTeyvat-public
-> License: https://creativecommons.org/licenses/by/4.0/
-> Changes: [describe your changes]
-
-This summary is not legal advice and does not replace the license text.
-
-## Third-party exclusions
-
-The following are not licensed by this repository:
-
-- Genshin Impact characters, names, elements, nations, artwork, logos, and related trademarks, which belong to COGNOSPHERE PTE. LTD. (HoYoverse) and their respective owners.
-- Any database, table, text, or image obtained from Game8, Genshin Impact Wiki, Yatta / Project Amber, Enka.Network, or HoYoWiki.
-- The Born in Teyvat website source code, UI, design, and visual assets.
-- Character avatars, character PNG files, and any other artwork.
-
-No images are distributed in this repository. The absence of an image is intentional.
-
-## Usage examples
-
-Fetch the datasets directly from GitHub:
-
-```js
-const base =
-  "https://raw.githubusercontent.com/CheemsGalaxy/BornInTeyvat-public/main";
-
-const characters = await fetch(`${base}/data/characters.json`).then((response) => {
-  if (!response.ok) throw new Error(`HTTP ${response.status}`);
-  return response.json();
-});
-
-const nations = await fetch(`${base}/data/nations.json`).then((response) => {
-  if (!response.ok) throw new Error(`HTTP ${response.status}`);
-  return response.json();
-});
-
-const mondstadtCharacters = characters.filter(
-  (character) => character.nation === "Mondstadt",
-);
-```
-
-With `curl` and `jq`:
-
-```sh
-curl -fsSL https://raw.githubusercontent.com/CheemsGalaxy/BornInTeyvat-public/main/data/characters.json \
-  | jq '[.[] | select(.element == "Pyro") | {name, birthday}]'
-```
-
-Pin to a release tag or commit when reproducibility matters. `main` can change as records are corrected or added.
-
-## Validation
-
-The JSON files must parse as valid UTF-8 JSON and conform to the schemas in `schema/`. Before contributing, validate both files with a JSON Schema 2020-12 validator and check that:
-
-- every `id` is unique;
-- every required field is present and non-empty;
-- every birthday matches `MM-DD` and is a real calendar day;
-- every `element`, `nation`, and `rarity` value is in the documented set;
-- every character `nation` is either present in `data/nations.json` or is `Other`.
-
-## Contributing
-
-Corrections and additions are welcome when they can be verified. Read `CONTRIBUTING.md` before opening a pull request. Do not submit website source code, artwork, or third-party database dumps.
-
-Contributions are not automatically treated as licensed under CC BY 4.0. A contribution is accepted under that license only after the contributor explicitly agrees and confirms they have the rights needed to license it.
-
-## Disclaimer
-
-Born in Teyvat is an unofficial fan-made project and is not affiliated with, endorsed by, or sponsored by HoYoverse. Genshin Impact and related intellectual property belong to their respective owners.
-
-The dataset is provided "as is", without warranties of any kind, to the extent permitted by applicable law. The project owner does not claim legal clearance for third-party material and cannot grant rights they do not hold.
